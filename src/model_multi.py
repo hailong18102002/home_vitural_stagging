@@ -1,10 +1,10 @@
 import torch
 import numpy as np
 from PIL import Image
-from models import flush
-from image_processing import filter_items,segment_image, get_depth_image, resize_dimensions
-from utils import map_colors_rgb
-from models import initialize_pipelines, get_segmentation_pipeline, get_depth_pipeline
+from .models import flush
+from .image_processing import filter_items,segment_image, get_depth_image, resize_dimensions
+from .utils import map_colors_rgb
+from .models import initialize_pipelines, get_segmentation_pipeline, get_depth_pipeline
 class ControlNetDepthDesignModelMulti:
     """ Produces random noise images """
 

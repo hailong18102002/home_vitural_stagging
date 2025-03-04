@@ -1,5 +1,5 @@
 from typing import Dict
-from colors import COLOR_MAPPING_, COLOR_MAPPING_CATEGORY_
+from .colors import COLOR_MAPPING_, COLOR_MAPPING_CATEGORY_
 
 
 def convert_hex_to_rgba(hex_code: str) -> str:

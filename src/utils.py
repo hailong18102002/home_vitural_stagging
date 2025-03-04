@@ -5,7 +5,7 @@ from PIL import Image
 import torch
 from scipy.signal import fftconvolve
 
-from palette import COLOR_MAPPING, COLOR_MAPPING_
+from .palette import COLOR_MAPPING, COLOR_MAPPING_
 
 
 def to_rgb(color: str) -> tuple:

@@ -2,8 +2,8 @@ import numpy as np
 from PIL import Image
 import torch
 from typing import Tuple, Union, List
-from models import device, dtype
-from colors import ade_palette
+from .models import device, dtype
+from .colors import ade_palette
 def filter_items(
     colors_list: Union[List, np.ndarray],
     items_list: Union[List, np.ndarray],
